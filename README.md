@@ -1,4 +1,4 @@
-# Chesscom-live-game-analyzer
+#Chess-Cheat
 
 A Chrome extension that reads the board on a live Chess.com game and overlays
 the Stockfish-recommended move as an arrow, updating automatically as the
