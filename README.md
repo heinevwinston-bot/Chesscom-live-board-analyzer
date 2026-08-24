@@ -1,4 +1,3 @@
-#chess #chess-game #chess-puzzle #chess-ai #chess-analysis #stockfish-engine #react 
 
 A Chrome extension that reads the board on a live Chess.com game and overlays
 the Stockfish-recommended move as an arrow, updating automatically as the
