@@ -6,7 +6,7 @@ game progresses.
 
 ![Screenshot](screenshot.png)
 
-## ⚠️ Before you use this
+## Before you use this
 
 Using engine assistance during a live/rated game violates Chess.com's Fair
 Play rules and can get your account flagged or banned. This tool is meant
