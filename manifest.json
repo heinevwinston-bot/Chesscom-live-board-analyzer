@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Stockfish Assist",
+  "version": "1.0.0",
+  "description": "Analyzes your live Chess.com game and shows the Stockfish best move as an overlay arrow.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.chess.com/*",
+    "https://chess-api.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Chess.com Stockfish Assist"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.chess.com/*"
+      ],
+      "js": [
+        "fen-builder.js",
+        "content.js"
+      ],
+      "css": [
+        "overlay.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
