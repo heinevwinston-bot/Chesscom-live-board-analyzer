@@ -1,0 +1,14 @@
+#chess-assist-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1001;
+  background: rgba(20, 20, 20, 0.85);
+  color: #e7f6f5;
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  pointer-events: none;
+}
